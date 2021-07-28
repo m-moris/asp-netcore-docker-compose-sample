@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{02CED3E6-9E9E-4793-9E4F-AEB0A90B57BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd", "BackEnd\BackEnd.csproj", "{B7AA7796-4D84-4B59-A121-C48E51C2BBA9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BF192A6F-E0E6-4FE1-9E75-A7A7BD08985E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02CED3E6-9E9E-4793-9E4F-AEB0A90B57BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CED3E6-9E9E-4793-9E4F-AEB0A90B57BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CED3E6-9E9E-4793-9E4F-AEB0A90B57BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CED3E6-9E9E-4793-9E4F-AEB0A90B57BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AA7796-4D84-4B59-A121-C48E51C2BBA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AA7796-4D84-4B59-A121-C48E51C2BBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AA7796-4D84-4B59-A121-C48E51C2BBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AA7796-4D84-4B59-A121-C48E51C2BBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF192A6F-E0E6-4FE1-9E75-A7A7BD08985E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF192A6F-E0E6-4FE1-9E75-A7A7BD08985E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF192A6F-E0E6-4FE1-9E75-A7A7BD08985E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF192A6F-E0E6-4FE1-9E75-A7A7BD08985E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5910C95-5C01-41DA-9036-340C2D8D0AA7}
+	EndGlobalSection
+EndGlobal
